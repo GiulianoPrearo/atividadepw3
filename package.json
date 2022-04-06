@@ -1,0 +1,25 @@
+{
+  "name": "api-giuliano",
+  "version": "1.0.0",
+  "description": "Api Rest desenvolvida como atividade avaliativa de PW3.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "PW3",
+    "ETEC",
+    "BARUERI",
+    "API-REST"
+  ],
+  "author": "Giuliano Mouzart de Alcântara Prearo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.4",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.16.1"
+  }
+}
